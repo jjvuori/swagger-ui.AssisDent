@@ -1,5 +1,3 @@
-* text eol=lf
-
 dist/**/*.js binary
 dist/**/*.map binary
 dist/**/*.eot binary

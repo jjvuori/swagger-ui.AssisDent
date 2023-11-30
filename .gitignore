@@ -11,3 +11,6 @@ swagger-ui.sublime-workspace
 .project
 node_modules/*
 /nbproject/private/
+obj
+bin
+.vs

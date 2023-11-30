@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Title>Swagger UI for AssisDent.</Title>
+    <Version>1.0.2</Version>
+    <Authors>Entteri Oy</Authors>
+    <Company>Entteri Oy</Company>
+    <Description>Swagger UI v 2.1.3 for AssisDent.</Description>
+    <Copyright>Entteri Oy</Copyright>
+    <RepositoryUrl>https://github.com/jjvuori/swagger-ui.AssisDent</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\dist\**\*" />
+  </ItemGroup>
+
+</Project>

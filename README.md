@@ -13,7 +13,7 @@ To use the package, add following code to *.csproj* file.
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="Entteri.Swagger.UI" Version="1.0.1" />
+  <PackageReference Include="Entteri.Swagger.UI" Version="1.0.2" />
 </ItemGroup>
 ```
 
@@ -25,6 +25,6 @@ Publish nuget (from Windows command line):
 cd nuget
 dotnet pack Entteri.Swagger.UI.csproj
 cd Bin\Release
-dotnet nuget push --source "AD-public" --api-key none Entteri.Swagger.UI.1.0.1.nupkg
+dotnet nuget push --source "AD-public" --api-key none Entteri.Swagger.UI.1.0.2.nupkg
 cd ..\..\..
 ```
