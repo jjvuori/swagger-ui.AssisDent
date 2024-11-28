@@ -18,7 +18,7 @@ To use the package, add following code to *.csproj* file.
 ```
 
 ## Publish
-See general instructions for publishing Entteri NuGet packages: https://github.com/jjvuori/ac-dependency-binaries#publishing-nuget-packages
+See general instructions for publishing Entteri NuGet packages: https://github.com/jjvuori/ac-dependency-binaries
 
 Publish nuget (from Windows command line):
 ```
