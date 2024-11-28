@@ -25,6 +25,6 @@ Publish nuget (from Windows command line):
 cd nuget
 dotnet pack Entteri.Swagger.UI.csproj
 cd Bin\Release
-dotnet nuget push --source "AD-public" --api-key none Entteri.Swagger.UI.1.0.2.nupkg
+dotnet nuget push --source "Entteri" --api-key none Entteri.Swagger.UI.1.0.2.nupkg
 cd ..\..\..
 ```
